@@ -1,0 +1,19 @@
+{
+  "name": "friends-server",
+  "version": "0.0.1",
+  "description": "A React app to add and edit people and their friends, explore details, and visualize the network with charts such as age distribution.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "author": "NinaDavydenko",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
